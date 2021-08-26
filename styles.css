@@ -1,0 +1,111 @@
+body {
+  text-align: center;
+  font-family: "Red Hat Display", sans-serif;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-color: hsl(225, 100%, 94%);
+  line-height: 1.6;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0;
+}
+.main-body {
+  background-color: white;
+  width: 327px;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+.top-img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 160px;
+  margin: 0 auto;
+}
+h1 {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  font-size: 1.75rem;
+}
+.order-description {
+  max-width: 275px;
+  margin: 0 auto;
+  color: hsl(224, 23%, 55%);
+}
+.order-info {
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 275px;
+  margin: 0 auto;
+  background-color: hsl(225, 100%, 98%);
+  padding: 25px;
+}
+
+.music-icon {
+  height: 48px;
+  width: 50px;
+  background-position: center;
+  background-size: cover;
+}
+.pricing {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+  color: hsl(223, 47%, 23%);
+  height: 48px;
+  padding: 0 35px 0 15px;
+  font-size: 14px;
+  line-height: 1.2;
+}
+#annual-plan {
+  margin-top: 8px;
+}
+#price {
+  color: hsl(224, 23%, 55%);
+  text-align: left;
+}
+.change {
+  margin: auto 0;
+  line-height: 0;
+  font-size: 12px;
+  color: hsl(245, 75%, 52%);
+  text-decoration: underline;
+}
+.proceed {
+  width: 275px;
+  margin-top: 20px;
+  box-shadow: inset 0px 1px 0px 0px hsl(245, 75%, 52%);
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 15px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  height: 30px;
+  padding-top: 12px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #1570cd;
+}
+.proceed:hover {
+  background-color: #1e62d0;
+}
+.proceed:active {
+  position: relative;
+  top: 1px;
+}
+.cancel {
+  font-size: 12px;
+  color: hsl(225, 100%, 94%);
+  text-shadow: 0px 0px 1px 0px;
+  margin: 10px auto;
+}
+.attribution {
+  margin-top: 30px;
+  font-size: 0.5rem;
+}
